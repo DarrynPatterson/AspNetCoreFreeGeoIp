@@ -17,9 +17,9 @@ namespace AspNetCoreFreeGeoIp
             var client = new RestClient(BaseUrl);
             var response = client.Execute(request);
 
-            if (response.StatusCode == HttpStatusCode.Forbidden)
+            if (response.StatusCode != HttpStatusCode.OK)
             {
-                throw new WebException($"Request forbidden: {request.Resource}");
+                return null;
             }
 
             var json = response.Content;
