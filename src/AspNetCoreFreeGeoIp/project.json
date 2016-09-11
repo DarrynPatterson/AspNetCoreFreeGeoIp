@@ -1,16 +1,14 @@
 {
-  "version": "1.0.0-*",
+  "version": "1.0.0",
   "language": "English",
   "authors": [ "Darryn Patterson" ],
   "copyright": "Copyright 2016",
   "title": "AspNetCoreFreeGeoIp",
-
   "dependencies": {
     "NETStandard.Library": "1.6.0",
     "Newtonsoft.Json": "9.0.1",
     "RestSharp": "105.2.3"
   },
-
   "frameworks": {
     "net461": {}
   }
