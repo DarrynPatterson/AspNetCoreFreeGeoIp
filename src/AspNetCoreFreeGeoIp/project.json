@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "language": "English",
   "authors": [ "Darryn Patterson" ],
   "copyright": "Copyright 2016",
@@ -8,7 +8,7 @@
   "projectUrl": "https://github.com/DarrynPatterson/AspNetCoreFreeGeoIp",
   "packOptions": {
     "licenseUrl": "https://github.com/DarrynPatterson/AspNetCoreFreeGeoIp/blob/master/LICENSE",
-    "tags": [ "Compression", "GZip" ],
+    "tags": [ "FreeGeoIp", "GeoIp" ],
     "owners": [ "Darryn Patterson" ],
     "summary": "AspNetCoreFreeGeoIp is an ASP.NET Core wrapper for the freegeoip GitHub project.",
     "repository": {
